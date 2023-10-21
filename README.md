@@ -6,7 +6,7 @@
 // @author       Infinite Smasher
 // @description  Adds a color slider to the inventory!
 // @icon         https://raw.githubusercontent.com/InfiniteSmasher/Color-Slider/main/ico_egg.png
-// @require      https://raw.githubusercontent.com/InfiniteSmasher/Color-Slider/main/sliderHTML.js
+// @require      https://raw.githubusercontent.com/InfiniteSmasher/Color-Slider/main/sliderHTML1.js
 // @match        *://*shellshock.io/*
 // @run-at       document-end
 // ==/UserScript==
@@ -33,7 +33,7 @@
 // @author       Infinite Smasher
 // @description  Adds a color slider to the inventory exclusively for VIPs!
 // @icon         https://raw.githubusercontent.com/InfiniteSmasher/Color-Slider/main/ico_egg.png
-// @require      https://raw.githubusercontent.com/InfiniteSmasher/Color-Slider/main/sliderHTML.js
+// @require      https://raw.githubusercontent.com/InfiniteSmasher/Color-Slider/main/sliderHTML2.js
 // @match        *://*shellshock.io/*
 // @run-at       document-end
 // ==/UserScript==
