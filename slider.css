@@ -1,0 +1,71 @@
+:root {
+	--slider-color: hsl(180, 100%, 50%);
+	--slider-lock-pos: 0.13em; /* -14.53em to 14.79em */
+}
+
+.color-slider {
+	height: 3.4em;
+}
+
+.color-slider input[type='range'] {
+	-webkit-appearance: none;
+	appearance: none;
+	background: transparent;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 2em;
+}
+
+.color-slider input[type='range']::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    90deg,
+    hsl(0, 100%, 50%),
+    hsl(45, 100%, 50%),
+    hsl(90, 100%, 50%),
+    hsl(135, 100%, 50%),
+    hsl(180, 100%, 50%),
+    hsl(225, 100%, 50%),
+    hsl(270, 100%, 50%),
+    hsl(315, 100%, 50%),
+    hsl(360, 100%, 50%)
+  );
+  height: 1em;
+  border-radius: 1em;
+  border: 0.2em solid var(--ss-blue3);
+}
+
+.color-slider input[type='range']:disabled {
+  filter: grayscale(0.8);
+}
+
+.color-slider input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.75em;
+  height: 1.75em;
+  border-width: 0.2em;
+  border-radius: 85% 25% 55% 50% / 55% 25% 85% 50%;
+  transform: rotate(-45deg);
+  background: var(--slider-color) !important;
+  margin-top: -0.5em;
+}
+
+.egg-color-select {
+	margin-bottom: calc(var(--ss-space-lg)) !important;
+}
+
+.screen-skins #equip_weapon_panel{
+    bottom: 5.2em !important;
+}
+
+.slider-lock {
+	font-size: 0.9em !important;
+	color: white;
+	position: relative;
+	bottom: 1.7em;
+	left: var(--slider-lock-pos);
+}
+
+.paper-doll-click-container {
+	top: 25em !important;
+}
